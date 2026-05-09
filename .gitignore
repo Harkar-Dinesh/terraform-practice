@@ -2,8 +2,8 @@
 ** /.terraform/*
 
 # Terraform state files
-I -. tfstate
-*. tfstate .*
+*.tfstate
+*.tfstate .*
 
 # Terraform lock file
 .terraform. lock.hcl
